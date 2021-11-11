@@ -1,0 +1,43 @@
+{
+  "name": "pip-idea-backend",
+  "version": "1.0.0",
+  "description": "pip idea backend",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/PiPIdea/pip-idea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/PiPIdea/pip-idea/issues"
+  },
+  "homepage": "https://gitlab.com/PiPIdea/pip-idea#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "eosjs": "^22.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9",
+    "mongoose-paginate-v2": "^1.4.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "trim-request": "^1.0.6",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.13"
+  }
+}
